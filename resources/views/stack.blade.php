@@ -73,7 +73,7 @@
             </div>
         @if(isset($stackName))
                 <h1>Here is your stacked video</h1>
-                <video width="320" height="240" controls>
+                <video width="600"  controls>
                     <source src="/storage/{{$stackName}}" type="video/mp4">
                     <source src="/storage/{{$stackName}}" type="video/ogg">
                     <source src="/storage/{{$stackName}}" type="video/webm">
